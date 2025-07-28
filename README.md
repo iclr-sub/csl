@@ -1,4 +1,4 @@
-# Novel Cost-Sensitive Learning (CSL) Loss Function
+# Cost-Sensitive Learning (CSL) Loss Function
 
 This repository contains the code for training machine learning models using a novel Cost-Sensitive Learning (CSL) loss function designed to handle class imbalance effectively. The code is modular and has been tested on multiple datasets, including ImageNet-LT, CIFAR-10, CIFAR-100, Tiny ImageNet and iNaturalist2018.
 
@@ -70,7 +70,7 @@ Ensure the appropriate images and labels are placed correctly for each dataset. 
 To train models using the ImageNet-LT or iNaturalist datasets, use the `main.py` script. You can customize the dataset, model, batch size, and other hyperparameters as needed.
 
 ```bash
-python main.py --dataset_name imagenet --model_name resnext50 --batch_size 128
+python main.py --dataset_name imagenet --model_name resnet50 
 ```
 
 Example for training on iNaturalist with ResNet-50:
